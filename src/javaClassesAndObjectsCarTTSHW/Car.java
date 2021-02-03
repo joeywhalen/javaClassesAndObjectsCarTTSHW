@@ -8,6 +8,7 @@ public class Car {
 	private String model;
 	private String color;
 	
+	// 3 constructors
 	public car() {}
 	
 	public car (String make, String model) {
