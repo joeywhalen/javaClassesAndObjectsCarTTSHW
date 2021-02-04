@@ -52,5 +52,17 @@ public class Car {
 	{
 		this.color = color;
 	}
+	
+	public boolean colorChoice () {
+		if (getColor() == "white") {
+			return true;
+		} else {
+			return false;
+		}
+	}
+	
+	public void makeChoice() {
+		System.out.println("Your color choice is: " + this.color);
+	}
 
 }
